@@ -4,8 +4,8 @@
   "children" : [ "/main/main.collectionc", "/orthographic/render/orthographic.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
 }, {
   "path" : "/main/main.collectionc",
-  "hexDigest" : "8ff2b9927df87bcced8329d2fc862df04a192c27",
-  "children" : [ "/orthographic/camera.goc", "/_generated_cc494d800d87c2a8.goc", "/_generated_a28cb2be09e3eacc.goc", "/_generated_28a23d4bf73ef69f.goc", "/_generated_4fae9ec58aef6d3.goc" ]
+  "hexDigest" : "e5775bb3c2f85161530b26342f55f0e8016c402e",
+  "children" : [ "/orthographic/camera.goc", "/_generated_cc494d800d87c2a8.goc", "/_generated_de569e4afcd15047.goc", "/_generated_28a23d4bf73ef69f.goc", "/_generated_4fae9ec58aef6d3.goc" ]
 }, {
   "path" : "/orthographic/camera.goc",
   "hexDigest" : "614a3cc07a33d25d8ff648db4ff27def0ed74a30",
@@ -256,12 +256,12 @@
   "hexDigest" : "a60783c62d99ed74ceb00e089d196f54acec545b",
   "children" : [ ]
 }, {
-  "path" : "/_generated_a28cb2be09e3eacc.goc",
-  "hexDigest" : "586ea294dd2a87c9c5156c95dfd21cfbc6c4bc9b",
+  "path" : "/_generated_de569e4afcd15047.goc",
+  "hexDigest" : "b7ab3a82bb563eebd89d97e3ce0571adf4aff979",
   "children" : [ "/main/main.scriptc", "/_generated_810c3ff3c7a1ad5e.spritec" ]
 }, {
   "path" : "/main/main.scriptc",
-  "hexDigest" : "b2d15e951644985fff396fcb920f62b419fac049",
+  "hexDigest" : "7c3eb6496b700c8f05237015872f69ba527d5f17",
   "children" : [ "/screens/screens.luac", "/monarch/monarch.luac", "/orthographic/camera.luac", "/common/sounds.luac" ]
 }, {
   "path" : "/screens/screens.luac",

@@ -49,32 +49,12 @@
   :workflow {
     :open-tabs [
       [
-        [
-          "/screens/game/game.gui_script"
-          :code
-        ]
-        [
-          "/game.project"
-          :cljfx-form-view
-        ]
-        [
-          "/screens/game/game.collection"
-          :scene
-        ]
-        [
-          "/main/main.script"
-          :code
-        ]
       ]
     ]
     :recent-files [
       [
         "/common/veon_ads.lua"
         :code
-      ]
-      [
-        "/main/main.collection"
-        :scene
       ]
       [
         "/assets/tiles/map_2.tilemap"
@@ -181,19 +161,23 @@
         :code
       ]
       [
-        "/screens/game/game.gui_script"
-        :code
+        "/main/main.collection"
+        :scene
       ]
       [
-        "/game.project"
-        :cljfx-form-view
+        "/main/main.script"
+        :code
       ]
       [
         "/screens/game/game.collection"
         :scene
       ]
       [
-        "/main/main.script"
+        "/game.project"
+        :cljfx-form-view
+      ]
+      [
+        "/screens/game/game.gui_script"
         :code
       ]
     ]

@@ -11,7 +11,7 @@ local function resize_bg(self)
 	print(self.bg_size.y)
 	CAMERA_ZOOM = math.min(1280, self.bg_size.y) / 1280
 	camera.set_zoom(nil, CAMERA_ZOOM)
-	go.set('main:/go#background', 'size', self.bg_size)
+	-- go.set('main:/go#background', 'size', self.bg_size)
 end
 
 local function resize(self, event, data)

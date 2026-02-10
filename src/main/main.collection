@@ -43,6 +43,10 @@ embedded_instances {
   "  texture: \\\"/assets/atlases/main.atlas\\\"\\n"
   "}\\n"
   "\"\n"
+  "  scale {\n"
+  "    x: 1.1\n"
+  "    y: 1.1\n"
+  "  }\n"
   "}\n"
   ""
 }
