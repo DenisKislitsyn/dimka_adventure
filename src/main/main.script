@@ -3,15 +3,20 @@ local monarch = require 'monarch.monarch'
 local camera = require 'orthographic.camera'
 local sounds = require 'common.sounds'
 
+CAMERA_ZOOM = 1
+
 local function resize_bg(self)
 	local b = camera.screen_to_world_bounds()
 	self.bg_size.y = b.y - b.w
+	print(self.bg_size.y)
+	CAMERA_ZOOM = math.min(1280, self.bg_size.y) / 1280
+	camera.set_zoom(nil, CAMERA_ZOOM)
 	go.set('main:/go#background', 'size', self.bg_size)
 end
 
 local function resize(self, event, data)
 	if event == window.WINDOW_EVENT_RESIZED then
-		self.t = self.t or timer.delay(0.06, false, function()
+		self.t = self.t or timer.delay(0.1, false, function()
 			resize_bg(self)
 			self.t = nil
 		end)

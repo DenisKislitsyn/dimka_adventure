@@ -39,7 +39,7 @@
     }
   }
   :open-assets {
-    :term "game."
+    :term "main"
   }
   :search-in-files {
     :exts ""
@@ -57,6 +57,14 @@
           "/game.project"
           :cljfx-form-view
         ]
+        [
+          "/screens/game/game.collection"
+          :scene
+        ]
+        [
+          "/main/main.script"
+          :code
+        ]
       ]
     ]
     :recent-files [
@@ -71,10 +79,6 @@
       [
         "/assets/tiles/map_2.tilemap"
         :scene
-      ]
-      [
-        "/main/main.script"
-        :code
       ]
       [
         "/screens/screens.lua"
@@ -157,10 +161,6 @@
         :scene
       ]
       [
-        "/screens/game/game.collection"
-        :scene
-      ]
-      [
         "/screens/main_menu/main_menu.gui_script"
         :code
       ]
@@ -187,6 +187,14 @@
       [
         "/game.project"
         :cljfx-form-view
+      ]
+      [
+        "/screens/game/game.collection"
+        :scene
+      ]
+      [
+        "/main/main.script"
+        :code
       ]
     ]
   }

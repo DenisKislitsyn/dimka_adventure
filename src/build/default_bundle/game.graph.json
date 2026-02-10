@@ -12,11 +12,11 @@
   "children" : [ "/orthographic/camera.scriptc", "/_generated_7da16a0ae6b03c96.camerac" ]
 }, {
   "path" : "/orthographic/camera.scriptc",
-  "hexDigest" : "a107fd7027dd1d2c1d166bedb38222486a5c9a41",
+  "hexDigest" : "80be877c9fe6db53967403c560f248f8c4a7b4b7",
   "children" : [ "/orthographic/camera.luac" ]
 }, {
   "path" : "/orthographic/camera.luac",
-  "hexDigest" : "6653cae1dc860acdefd512afbb30f1d265942d9f",
+  "hexDigest" : "b5ebd2c05df13459855ca7722fe1efc5904832db",
   "children" : [ ]
 }, {
   "path" : "/_generated_7da16a0ae6b03c96.camerac",
@@ -28,19 +28,19 @@
   "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_e5814936b813f267.collectionproxyc" ]
 }, {
   "path" : "/monarch/screen_proxy.scriptc",
-  "hexDigest" : "a669a21260a1ae3066790122293ed57260aaaa62",
+  "hexDigest" : "89748158e4f60c28c840eca55d492702dced8ae4",
   "children" : [ "/monarch/monarch.luac" ]
 }, {
   "path" : "/monarch/monarch.luac",
-  "hexDigest" : "4f9a38100c864c5492a568f9a9b15d4530fc8f30",
+  "hexDigest" : "591cfc98f44871e167aef45fb782a62ac703a0cc",
   "children" : [ "/monarch/utils/callback_tracker.luac", "/monarch/utils/async.luac" ]
 }, {
   "path" : "/monarch/utils/callback_tracker.luac",
-  "hexDigest" : "77132bfaa6f16b6795377ac5c48384dd1e5ec315",
+  "hexDigest" : "e90947fa87304ae31fadd5b9f4d765d0c09e3919",
   "children" : [ ]
 }, {
   "path" : "/monarch/utils/async.luac",
-  "hexDigest" : "d125bee46e8f3186fd4f32dd8f4b0aac911f8a8b",
+  "hexDigest" : "ee37c72f91a0c3281335158473f8d563ce822585",
   "children" : [ ]
 }, {
   "path" : "/_generated_e5814936b813f267.collectionproxyc",
@@ -69,23 +69,23 @@
   "children" : [ "/screens/game/game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/game/game.gui_scriptc",
-  "hexDigest" : "165d169c81e953af943f2dbde8bc5c39524ee95e",
+  "hexDigest" : "614f6ad9cf7503aa40007c31f9f06204428018be",
   "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/game/modules/manager.luac" ]
 }, {
   "path" : "/common/button.luac",
-  "hexDigest" : "d99e1abe7a0224534133d1298de2b7109cf51235",
+  "hexDigest" : "5f71e503e6022e14ca3c94327b82ad97b1095eef",
   "children" : [ "/common/sounds.luac" ]
 }, {
   "path" : "/common/sounds.luac",
-  "hexDigest" : "2c187319df39cf9d0e466e8a3b3689ccbc85a205",
+  "hexDigest" : "aef583cf65bf248633780dd84e2b7f6ae38bb625",
   "children" : [ "/ludobits/m/signal.luac" ]
 }, {
   "path" : "/ludobits/m/signal.luac",
-  "hexDigest" : "d4a25c263574516eb8fb8ada78833f5e50410cfa",
+  "hexDigest" : "81b6313a37123622830982508f513bc6a82374fa",
   "children" : [ ]
 }, {
   "path" : "/screens/game/modules/manager.luac",
-  "hexDigest" : "57075707412d7131a758a9d1b5242c515784e65a",
+  "hexDigest" : "dee584fcbb98c876c7c601f621aa03edc38bd5ee",
   "children" : [ ]
 }, {
   "path" : "/assets/fonts/font.fontc",
@@ -245,7 +245,7 @@
   "children" : [ "/screens/game/game.scriptc", "/_generated_e90ad1306179e744.spritec", "/_generated_d536a4c368a2287f.collisionobjectc", "/_generated_410452638cd3e5e9.spritec" ]
 }, {
   "path" : "/screens/game/game.scriptc",
-  "hexDigest" : "f29c57af6ef111d68b4138d34175c9b460261466",
+  "hexDigest" : "5a7cf63fdfd4f80a2a4d8c2e7d677d4149de5323",
   "children" : [ "/screens/game/modules/manager.luac" ]
 }, {
   "path" : "/_generated_e90ad1306179e744.spritec",
@@ -261,11 +261,11 @@
   "children" : [ "/main/main.scriptc", "/_generated_810c3ff3c7a1ad5e.spritec" ]
 }, {
   "path" : "/main/main.scriptc",
-  "hexDigest" : "d1ba1e33ccec022f19c7e9673156abdd213a97e6",
+  "hexDigest" : "b2d15e951644985fff396fcb920f62b419fac049",
   "children" : [ "/screens/screens.luac", "/monarch/monarch.luac", "/orthographic/camera.luac", "/common/sounds.luac" ]
 }, {
   "path" : "/screens/screens.luac",
-  "hexDigest" : "b041ca04a561d1b2da910807a318ffc069900451",
+  "hexDigest" : "9fd81e62d3219a5637d2e2e74ed47f574e6609c5",
   "children" : [ ]
 }, {
   "path" : "/_generated_810c3ff3c7a1ad5e.spritec",
@@ -294,7 +294,7 @@
   "children" : [ "/screens/main_menu/main_menu.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/main_menu/main_menu.gui_scriptc",
-  "hexDigest" : "76b6bc70ae552a6c30a75b75f5bb688bee547fcb",
+  "hexDigest" : "21e0142c1fd4fe5f850010482371251ccf47dc11",
   "children" : [ "/monarch/monarch.luac", "/common/button.luac" ]
 }, {
   "path" : "/_generated_4fae9ec58aef6d3.goc",
@@ -322,7 +322,7 @@
   "children" : [ "/orthographic/render/orthographic.render_scriptc" ]
 }, {
   "path" : "/orthographic/render/orthographic.render_scriptc",
-  "hexDigest" : "fe3d848036d6cd5180587fa020fb5d9868eaa24a",
+  "hexDigest" : "20cc7c5b96b517123ed3223b7449ab10886e4bad",
   "children" : [ "/orthographic/camera.luac" ]
 }, {
   "path" : "/input/game.input_bindingc",
