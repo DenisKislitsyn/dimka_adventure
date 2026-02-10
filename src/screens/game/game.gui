@@ -1,0 +1,431 @@
+script: "/screens/game/game.gui_script"
+fonts {
+  name: "font"
+  font: "/assets/fonts/font.font"
+}
+textures {
+  name: "main_menu"
+  texture: "/assets/atlases/main.atlas"
+}
+nodes {
+  position {
+    x: 360.0
+    y: 640.0
+  }
+  size {
+    x: 720.0
+    y: 1280.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/empty"
+  id: "root"
+  xanchor: XANCHOR_LEFT
+  yanchor: YANCHOR_BOTTOM
+  adjust_mode: ADJUST_MODE_STRETCH
+  layer: "node"
+  inherit_alpha: true
+}
+nodes {
+  size {
+    x: 720.0
+    y: 1280.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/empty"
+  id: "pick"
+  adjust_mode: ADJUST_MODE_STRETCH
+  parent: "root"
+  layer: "node"
+  inherit_alpha: true
+}
+nodes {
+  size {
+    x: 720.0
+    y: 1280.0
+  }
+  color {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  type: TYPE_BOX
+  id: "pick_bg"
+  adjust_mode: ADJUST_MODE_STRETCH
+  parent: "pick"
+  layer: "node"
+  inherit_alpha: true
+  alpha: 0.8
+}
+nodes {
+  position {
+    y: 395.0
+  }
+  scale {
+    x: 0.6
+    y: 0.6
+  }
+  size {
+    x: 1000.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\262\321\213\320\261\320\265\321\200\320\270, \320\272\320\276\320\263\320\276 \320\277\321\200\320\276\320\262\320\265\321\201\321\202\320\270 \321\207\320\265\321\200\320\265\320\267 \320\273\320\260\320\261\320\270\321\200\320\270\320\275\321\202\n"
+  ""
+  font: "font"
+  id: "title"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "pick"
+  layer: "text"
+}
+nodes {
+  position {
+    x: -180.0
+    y: 215.0
+  }
+  size {
+    x: 140.0
+    y: 140.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/pasha"
+  id: "pers1"
+  parent: "pick"
+  layer: "node"
+}
+nodes {
+  position {
+    y: -100.0
+  }
+  scale {
+    x: 0.6
+    y: 0.6
+  }
+  size {
+    x: 300.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\277\320\260\320\277\320\260"
+  font: "font"
+  id: "perstext1"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "pers1"
+  layer: "text"
+}
+nodes {
+  position {
+    x: 180.0
+    y: 215.0
+  }
+  size {
+    x: 140.0
+    y: 140.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/vika"
+  id: "pers2"
+  parent: "pick"
+  layer: "node"
+}
+nodes {
+  position {
+    y: -100.0
+  }
+  scale {
+    x: 0.6
+    y: 0.6
+  }
+  size {
+    x: 300.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\274\320\260\320\274\320\260"
+  font: "font"
+  id: "perstext2"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "pers2"
+  layer: "text"
+}
+nodes {
+  position {
+    y: 90.0
+  }
+  size {
+    x: 140.0
+    y: 140.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/dima"
+  id: "pers3"
+  parent: "pick"
+  layer: "node"
+}
+nodes {
+  position {
+    y: -100.0
+  }
+  scale {
+    x: 0.6
+    y: 0.6
+  }
+  size {
+    x: 300.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\224\320\270\320\274\320\260\n"
+  ""
+  font: "font"
+  id: "perstext3"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "pers3"
+  layer: "text"
+}
+nodes {
+  position {
+    x: -180.0
+    y: -35.0
+  }
+  size {
+    x: 140.0
+    y: 140.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/milana"
+  id: "pers4"
+  parent: "pick"
+  layer: "node"
+}
+nodes {
+  position {
+    y: -100.0
+  }
+  scale {
+    x: 0.6
+    y: 0.6
+  }
+  size {
+    x: 300.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\274\320\270\320\273\320\260\320\275\320\260"
+  font: "font"
+  id: "perstext5"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "pers4"
+  layer: "text"
+}
+nodes {
+  position {
+    x: 180.0
+    y: -35.0
+  }
+  size {
+    x: 140.0
+    y: 140.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/nikita"
+  id: "pers5"
+  parent: "pick"
+  layer: "node"
+}
+nodes {
+  position {
+    y: -100.0
+  }
+  scale {
+    x: 0.6
+    y: 0.6
+  }
+  size {
+    x: 300.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\235\320\270\320\272\320\270\321\202\320\260"
+  font: "font"
+  id: "perstext4"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "pers5"
+  layer: "text"
+}
+nodes {
+  position {
+    y: -450.0
+  }
+  scale {
+    x: 0.5
+    y: 0.5
+  }
+  size {
+    x: 1000.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\272\320\276\320\263\320\264\320\260 \320\262\321\201\321\217 \321\201\320\265\320\274\321\214\321\217 \320\277\321\200\320\276\320\271\320\264\320\265\321\202 \321\207\320\265\321\200\320\265\320\267 \320\273\320\260\320\261\320\270\321\200\320\270\320\275\321\202 - \321\202\321\213 \320\277\320\276\320\273\321\203\321\207\320\270\321\210\321\214 \320\277\320\276\320\264\320\260\321\200\320\276\320\272!"
+  font: "font"
+  id: "descr"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "pick"
+  layer: "text"
+}
+nodes {
+  size {
+    x: 720.0
+    y: 1280.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/empty"
+  id: "gameover"
+  adjust_mode: ADJUST_MODE_STRETCH
+  parent: "root"
+  layer: "node"
+  inherit_alpha: true
+  enabled: false
+}
+nodes {
+  size {
+    x: 720.0
+    y: 1280.0
+  }
+  color {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  type: TYPE_BOX
+  id: "finish_bg"
+  adjust_mode: ADJUST_MODE_STRETCH
+  parent: "gameover"
+  layer: "node"
+  inherit_alpha: true
+  alpha: 0.8
+}
+nodes {
+  scale {
+    x: 0.6
+    y: 0.6
+  }
+  size {
+    x: 1000.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\243\320\240\320\220!\n"
+  "\320\222\320\241\320\257 \320\241\320\225\320\234\320\254\320\257 \320\222\320\253\320\250\320\233\320\220 \320\230\320\227 \320\233\320\220\320\221\320\230\320\240\320\230\320\235\320\242\320\220! \n"
+  "\n"
+  "\320\242\320\253 - \320\234\320\236\320\233\320\236\320\233\320\224\320\225\320\246!"
+  font: "font"
+  id: "title1"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  line_break: true
+  parent: "gameover"
+  layer: "text"
+}
+nodes {
+  type: TYPE_BOX
+  texture: "main_menu/joystick"
+  id: "joystick"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+  enabled: false
+}
+nodes {
+  type: TYPE_BOX
+  texture: "main_menu/joystickinner"
+  id: "joystickinner"
+  parent: "joystick"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+layers {
+  name: "node"
+}
+layers {
+  name: "text"
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
+max_nodes: 32

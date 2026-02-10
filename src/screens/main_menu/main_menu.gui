@@ -1,0 +1,115 @@
+script: "/screens/main_menu/main_menu.gui_script"
+fonts {
+  name: "font"
+  font: "/assets/fonts/font.font"
+}
+textures {
+  name: "main_menu"
+  texture: "/assets/atlases/main.atlas"
+}
+nodes {
+  position {
+    x: 360.0
+    y: 640.0
+  }
+  size {
+    x: 720.0
+    y: 1280.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/empty"
+  id: "root"
+  adjust_mode: ADJUST_MODE_STRETCH
+  layer: "node"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    y: 110.0
+  }
+  scale {
+    x: 0.9
+    y: 0.9
+  }
+  type: TYPE_BOX
+  texture: "main_menu/menu"
+  id: "logo"
+  parent: "root"
+  layer: "node"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    y: -48.88889
+  }
+  rotation {
+    z: 1.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\277\320\276\320\273\321\203\321\207\320\270\n"
+  "\320\277\320\276\320\264\320\260\321\200\320\276\320\272"
+  font: "font"
+  id: "text"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  parent: "logo"
+  layer: "text"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    y: -404.0
+  }
+  type: TYPE_BOX
+  texture: "main_menu/button"
+  id: "play"
+  parent: "root"
+  layer: "node"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\270\320\263\321\200\320\260\321\202\321\214"
+  font: "font"
+  id: "play_text"
+  outline {
+    x: 0.023529412
+    y: 0.38431373
+    z: 0.6509804
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+  parent: "play"
+  layer: "text"
+  inherit_alpha: true
+}
+layers {
+  name: "node"
+}
+layers {
+  name: "text"
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
+max_nodes: 13

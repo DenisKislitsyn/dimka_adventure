@@ -1,0 +1,39 @@
+local screens = require 'screens.screens'
+local monarch = require 'monarch.monarch'
+local camera = require 'orthographic.camera'
+local sounds = require 'common.sounds'
+
+local function resize_bg(self)
+	local b = camera.screen_to_world_bounds()
+	self.bg_size.y = b.y - b.w
+	go.set('main:/go#background', 'size', self.bg_size)
+end
+
+local function resize(self, event, data)
+	if event == window.WINDOW_EVENT_RESIZED then
+		self.t = self.t or timer.delay(0.06, false, function()
+			resize_bg(self)
+			self.t = nil
+		end)
+	end
+end
+
+function init(self)
+	math.randomseed(100000 * (socket.gettime() % 1))
+
+	self.bg_size = go.get('main:/go#background', 'size')
+	sounds.initialize()
+	monarch.scr = screens
+	window.set_listener(resize)
+	timer.delay(0.1, false, function()
+		resize_bg(self)
+
+		msg.post('.', hash('init_msg'))
+	end)
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash('init_msg') then
+		monarch.show(monarch.scr.main_menu)
+	end
+end

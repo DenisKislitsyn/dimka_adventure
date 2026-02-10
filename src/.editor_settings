@@ -1,0 +1,185 @@
+{
+  :bundle {
+    :build-report false
+    :contentless false
+    :debug-symbols false
+    :html5 {
+      :architecture {
+        :js-web true
+        :wasm-web true
+      }
+      :architectures #{
+        "js-web"
+        "wasm-web"
+        "wasm_pthread-web"
+      }
+      :build_report false
+      :contentless false
+      :liveupdate false
+      :texture_compression "enabled"
+      :variant "release"
+      :with_symbols false
+    }
+    :last-bundle-command :project.bundle-html5
+    :liveupdate false
+    :output-directory "/Users/Denis/Desktop/builds1/dimka"
+    :texture-compression "enabled"
+    :variant "debug"
+    :windows {
+      :platform "x86_64-win32"
+    }
+  }
+  :code {
+    :breakpoints [
+    ]
+    :find {
+      :case-sensitive false
+      :term "input_props"
+      :whole-word false
+    }
+  }
+  :open-assets {
+    :term "ma"
+  }
+  :search-in-files {
+    :exts ""
+    :include-libraries true
+    :term "common_lib"
+  }
+  :workflow {
+    :open-tabs [
+      [
+      ]
+    ]
+    :recent-files [
+      [
+        "/common/veon_ads.lua"
+        :code
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
+        "/assets/tiles/map_2.tilemap"
+        :scene
+      ]
+      [
+        "/main/main.script"
+        :code
+      ]
+      [
+        "/screens/screens.lua"
+        :code
+      ]
+      [
+        "/common/button.lua"
+        :code
+      ]
+      [
+        "/common/sounds.lua"
+        :code
+      ]
+      [
+        "/assets/fonts/font.font"
+        :scene
+      ]
+      [
+        "/assets/tiles/map.tilemap"
+        :scene
+      ]
+      [
+        "/assets/tiles/map1_copy.tilemap"
+        :scene
+      ]
+      [
+        "/assets/tiles/map.tilesource"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map.go"
+        :scene
+      ]
+      [
+        "/game.appmanifest"
+        :code
+      ]
+      [
+        "/screens/game/maps/map3.go"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map2.go"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map4.go"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map5.go"
+        :scene
+      ]
+      [
+        "/game.project"
+        :cljfx-form-view
+      ]
+      [
+        "/screens/game/maps/map1.go"
+        :scene
+      ]
+      [
+        "/assets/tiles/map1.tilemap"
+        :scene
+      ]
+      [
+        "/assets/tiles/map2.tilemap"
+        :scene
+      ]
+      [
+        "/assets/tiles/map3.tilemap"
+        :scene
+      ]
+      [
+        "/assets/tiles/map4.tilemap"
+        :scene
+      ]
+      [
+        "/assets/tiles/map5.tilemap"
+        :scene
+      ]
+      [
+        "/screens/game/game.gui"
+        :scene
+      ]
+      [
+        "/screens/game/game.collection"
+        :scene
+      ]
+      [
+        "/screens/main_menu/main_menu.gui_script"
+        :code
+      ]
+      [
+        "/assets/atlases/main.atlas"
+        :scene
+      ]
+      [
+        "/screens/main_menu/main_menu.gui"
+        :scene
+      ]
+      [
+        "/screens/game/modules/manager.lua"
+        :code
+      ]
+      [
+        "/screens/game/game.script"
+        :code
+      ]
+      [
+        "/screens/game/game.gui_script"
+        :code
+      ]
+    ]
+  }
+}

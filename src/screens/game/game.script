@@ -1,0 +1,47 @@
+local manager = require 'screens.game.modules.manager'
+
+local CONTACT_POINT_MSG = hash('contact_point_response')
+local EPS = 0.5
+
+function init(self)
+	manager.init()
+
+	self.map_num = 1
+end
+
+function update(self, dt)
+	manager.update(dt)
+end
+
+local function set_contacts(self, message)
+	if message.normal.y > EPS then
+		manager.player.contacts.down = true       -- контакт снизу (стена/пол под ногами)
+	elseif message.normal.y < -EPS then
+		manager.player.contacts.up = true         -- контакт сверху (удар головой)
+	end
+
+	if message.normal.x > EPS then
+		manager.player.contacts.left = true       -- контакт слева (стена справа)
+	elseif message.normal.x < -EPS then
+		manager.player.contacts.right = true      -- контакт справа (стена слева)
+	end
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == CONTACT_POINT_MSG then
+		if not message.normal then return end
+
+		if message.own_group == hash('default') and message.other_group == hash('finish') then
+			self.map_num = self.map_num + 1
+			if self.map_num > #manager.maps then
+				msg.post('game:/go#monarch', 'gameover')
+			else
+				manager.finish(self.map_num)
+			end
+
+			return
+		end
+		
+		set_contacts(self, message)
+	end
+end

@@ -1,0 +1,58 @@
+images {
+  image: "/assets/images/empty.png"
+}
+images {
+  image: "/assets/images/menu.png"
+}
+images {
+  image: "/assets/images/button.png"
+}
+images {
+  image: "/assets/images/bg_paw.png"
+}
+images {
+  image: "/assets/images/ground_tiles_vertical.png"
+}
+images {
+  image: "/assets/images/joystick.png"
+}
+images {
+  image: "/assets/images/joystickinner.png"
+}
+images {
+  image: "/assets/images/dog1.png"
+}
+images {
+  image: "/assets/images/dima.png"
+}
+images {
+  image: "/assets/images/milana.png"
+}
+images {
+  image: "/assets/images/nikita.png"
+}
+images {
+  image: "/assets/images/pasha.png"
+}
+images {
+  image: "/assets/images/vika.png"
+}
+images {
+  image: "/assets/images/denis.png"
+}
+images {
+  image: "/assets/images/nika.png"
+}
+images {
+  image: "/assets/images/dog2.png"
+}
+images {
+  image: "/assets/images/dog3.png"
+}
+images {
+  image: "/assets/images/dog4.png"
+}
+images {
+  image: "/assets/images/dog5.png"
+}
+extrude_borders: 2

@@ -1,0 +1,11 @@
+default_animation: "bg_paw"
+material: "/builtins/materials/sprite.material"
+size {
+  x: 2247.0
+  y: 1264.0
+}
+size_mode: SIZE_MODE_MANUAL
+textures {
+  sampler: "texture_sampler"
+  texture: "/assets/atlases/main.atlas"
+}

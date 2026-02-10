@@ -1,0 +1,79 @@
+
+local monarch = require 'monarch.monarch'
+local button = require 'common.button'
+local manager = require 'screens.game.modules.manager'
+
+local MAX_JOYSTIC_LEN = 100
+local min = math.min
+local v_length = vmath.length
+
+local function joystick_move(self, delta_vector)
+	local coef = min(MAX_JOYSTIC_LEN / v_length(delta_vector), 1)
+	gui.set_position(self.joystick.center, delta_vector * coef)
+end
+
+function init(self)
+	gui.set_render_order(4)
+	msg.post('.', 'acquire_input_focus')
+	self.buttons = {}
+
+	self.joystick = {
+		root = gui.get_node('joystick'),
+		center = gui.get_node('joystickinner'),
+		pos = vmath.vector3(),
+		touch_pos = vmath.vector3(),
+	}
+
+	self.pick = gui.get_node('pick')
+	for i, v in ipairs(manager.need_pass) do
+		self.buttons[v] = button.new(nil, 'pers' .. i, function()
+			gui.set_enabled(self.pick, false)
+			manager.set_pers(v)
+		end)
+	end
+end
+
+function on_message(self, message_id, message)
+	if message_id == hash('finish') then
+		for _, v in ipairs(manager.passed_yet) do
+			self.buttons[v]:disable()
+		end
+		gui.set_enabled(self.pick, true)
+	elseif message_id == hash('gameover') then
+		msg.post('.', 'release_input_focus')
+		gui.set_enabled(gui.get_node('gameover'), true)
+	end
+end
+
+function on_input(self, action_id, action)
+	if action_id == hash('touch') then
+		for _, btn in pairs(self.buttons) do
+			if btn:on_input(action) then
+				return true
+			end
+		end
+
+		if gui.is_enabled(self.pick) then
+			return
+		end
+
+		if action.pressed then
+			self.joystick.touch_pos.x = action.x
+			self.joystick.touch_pos.y = action.y
+			gui.set_screen_position(self.joystick.root, vmath.vector3(action.screen_x, action.screen_y, 0))
+			gui.set_enabled(self.joystick.root, true)
+		end
+
+		self.joystick.pos.x = action.x
+		self.joystick.pos.y = action.y
+		joystick_move(self, self.joystick.pos - self.joystick.touch_pos)
+		manager.input(action_id, action)
+
+		if action.released then
+			gui.set_enabled(self.joystick.root, false)
+		end
+	end
+end
+
+function final(self)
+end

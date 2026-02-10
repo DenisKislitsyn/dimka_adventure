@@ -1,0 +1,21 @@
+local monarch = require 'monarch.monarch'
+local button = require 'common.button'
+
+function init(self)
+	gui.set_render_order(2)
+	msg.post('.', 'acquire_input_focus')
+	self.buttons = {}
+	self.buttons.game = button.new(nil, 'play', function()
+		monarch.show(monarch.scr.game)
+	end)
+end
+
+function on_input(self, action_id, action)
+	if action_id == hash('touch') then
+		for _, btn in pairs(self.buttons) do
+			if btn:on_input(action) then
+				return true
+			end
+		end
+	end
+end

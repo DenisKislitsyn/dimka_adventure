@@ -1,0 +1,187 @@
+image: "/assets/images/ground_tiles_vertical\302\240\342\200\224 \320\272\320\276\320\277\320\270\321\217.png"
+tile_width: 150
+tile_height: 150
+collision: "/assets/images/ground_tiles_vertical\302\240\342\200\224 \320\272\320\276\320\277\320\270\321\217.png"
+convex_hulls {
+  index: 0
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 4
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 8
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 12
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 16
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 20
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 24
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 28
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 32
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 36
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 40
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 44
+  count: 4
+  collision_group: "wall"
+}
+convex_hulls {
+  index: 48
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 52
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 56
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 60
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 64
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 68
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 72
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 76
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 80
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 84
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 88
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 92
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 96
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 100
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 104
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 108
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 112
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 116
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 120
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 124
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 128
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 132
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 136
+  count: 4
+  collision_group: "road"
+}
+convex_hulls {
+  index: 140
+  count: 4
+  collision_group: "road"
+}
+collision_groups: "road"
+collision_groups: "wall"
+extrude_borders: 2

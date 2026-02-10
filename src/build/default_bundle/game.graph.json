@@ -1,0 +1,339 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/orthographic/render/orthographic.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "8ff2b9927df87bcced8329d2fc862df04a192c27",
+  "children" : [ "/orthographic/camera.goc", "/_generated_cc494d800d87c2a8.goc", "/_generated_a28cb2be09e3eacc.goc", "/_generated_28a23d4bf73ef69f.goc", "/_generated_4fae9ec58aef6d3.goc" ]
+}, {
+  "path" : "/orthographic/camera.goc",
+  "hexDigest" : "614a3cc07a33d25d8ff648db4ff27def0ed74a30",
+  "children" : [ "/orthographic/camera.scriptc", "/_generated_7da16a0ae6b03c96.camerac" ]
+}, {
+  "path" : "/orthographic/camera.scriptc",
+  "hexDigest" : "a107fd7027dd1d2c1d166bedb38222486a5c9a41",
+  "children" : [ "/orthographic/camera.luac" ]
+}, {
+  "path" : "/orthographic/camera.luac",
+  "hexDigest" : "6653cae1dc860acdefd512afbb30f1d265942d9f",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_7da16a0ae6b03c96.camerac",
+  "hexDigest" : "b02bc4088410828a01eb6601f048538029c5c724",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_cc494d800d87c2a8.goc",
+  "hexDigest" : "0ed61058e4e45ecddb4c18d0ab31af06a37d7c58",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_e5814936b813f267.collectionproxyc" ]
+}, {
+  "path" : "/monarch/screen_proxy.scriptc",
+  "hexDigest" : "a669a21260a1ae3066790122293ed57260aaaa62",
+  "children" : [ "/monarch/monarch.luac" ]
+}, {
+  "path" : "/monarch/monarch.luac",
+  "hexDigest" : "4f9a38100c864c5492a568f9a9b15d4530fc8f30",
+  "children" : [ "/monarch/utils/callback_tracker.luac", "/monarch/utils/async.luac" ]
+}, {
+  "path" : "/monarch/utils/callback_tracker.luac",
+  "hexDigest" : "77132bfaa6f16b6795377ac5c48384dd1e5ec315",
+  "children" : [ ]
+}, {
+  "path" : "/monarch/utils/async.luac",
+  "hexDigest" : "d125bee46e8f3186fd4f32dd8f4b0aac911f8a8b",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_e5814936b813f267.collectionproxyc",
+  "hexDigest" : "7f941dc3c5976e318ace4f1d45783c92bc8aee04",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/screens/game/game.collectionc" ]
+}, {
+  "path" : "/screens/game/game.collectionc",
+  "hexDigest" : "f37582933f4753db92d2913b9bfdf2f8916f50c4",
+  "children" : [ "/_generated_1cecb8b67aaeaf8a.goc", "/_generated_4fa3ab26832f1392.goc", "/screens/game/maps/map1.goc", "/screens/game/maps/map2.goc", "/screens/game/maps/map3.goc", "/screens/game/maps/map4.goc", "/screens/game/maps/map5.goc", "/_generated_c073ea2a7e5ed74.goc", "/_generated_41bc892d3c490f86.goc", "/_generated_ec7f4bf9d75dcccf.goc" ]
+}, {
+  "path" : "/_generated_1cecb8b67aaeaf8a.goc",
+  "hexDigest" : "50817c5b3305f26879d84de226cec00be4672b6a",
+  "children" : [ "/_generated_71335c0e6a61f7e6.collisionobjectc" ]
+}, {
+  "path" : "/_generated_71335c0e6a61f7e6.collisionobjectc",
+  "hexDigest" : "555a2e6f74499aca3816fac5e195bb77762f6d3a",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_4fa3ab26832f1392.goc",
+  "hexDigest" : "096aec4f2c7e4eedc463852989dd61cee228fbbf",
+  "children" : [ "/screens/game/game.guic" ]
+}, {
+  "path" : "/screens/game/game.guic",
+  "hexDigest" : "5b1e93f4daa81ee8bb15e2c849b73b1bcd6f4040",
+  "children" : [ "/screens/game/game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/screens/game/game.gui_scriptc",
+  "hexDigest" : "7eb396370cb51078fd9f6d0322f08b5eaa62f2e1",
+  "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/game/modules/manager.luac" ]
+}, {
+  "path" : "/common/button.luac",
+  "hexDigest" : "d99e1abe7a0224534133d1298de2b7109cf51235",
+  "children" : [ "/common/sounds.luac" ]
+}, {
+  "path" : "/common/sounds.luac",
+  "hexDigest" : "2c187319df39cf9d0e466e8a3b3689ccbc85a205",
+  "children" : [ "/ludobits/m/signal.luac" ]
+}, {
+  "path" : "/ludobits/m/signal.luac",
+  "hexDigest" : "d4a25c263574516eb8fb8ada78833f5e50410cfa",
+  "children" : [ ]
+}, {
+  "path" : "/screens/game/modules/manager.luac",
+  "hexDigest" : "57075707412d7131a758a9d1b5242c515784e65a",
+  "children" : [ ]
+}, {
+  "path" : "/assets/fonts/font.fontc",
+  "hexDigest" : "d3325b3fc0d6b52328a9322efef1361247deefea",
+  "children" : [ "/builtins/fonts/font-df.materialc", "/_generated_Kaph-Regular (1)_dd978325fd61b38d.glyph_bankc" ]
+}, {
+  "path" : "/builtins/fonts/font-df.materialc",
+  "hexDigest" : "caeb86001c8d4963edab6d15a3b40fcd2aa6e957",
+  "children" : [ "/shader_6592067761991147028.spc" ]
+}, {
+  "path" : "/shader_6592067761991147028.spc",
+  "hexDigest" : "d9bdcfbaf56c5cfc80d587ba6bec4e653956bde1",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_Kaph-Regular (1)_dd978325fd61b38d.glyph_bankc",
+  "hexDigest" : "1b09d742bbce910cc59638eed000f57e7ecdf412",
+  "children" : [ ]
+}, {
+  "path" : "/assets/atlases/main.a.texturesetc",
+  "hexDigest" : "f5079598bf1185b06612497071039833b025818f",
+  "children" : [ "/assets/atlases/main.texturec" ]
+}, {
+  "path" : "/assets/atlases/main.texturec",
+  "hexDigest" : "bc88d471983fcc240cf3fd7b9d7c77e1ca6e71e8",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "ea4cbed1ddcc693822de188e07c6acc30e862c99",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/shader_2713870051161532414.spc",
+  "hexDigest" : "5ca30b7fbc34732d2761a36a6f95523190e79bdc",
+  "children" : [ ]
+}, {
+  "path" : "/screens/game/maps/map1.goc",
+  "hexDigest" : "52c40149804fdd888bb8e31ee617ea459375a751",
+  "children" : [ "/assets/tiles/map1.tilemapc", "/_generated_ffec1475aba76cce.collisionobjectc" ]
+}, {
+  "path" : "/assets/tiles/map1.tilemapc",
+  "hexDigest" : "c92e5e243a6d49376941ed63457677adb50314fd",
+  "children" : [ "/assets/tiles/map.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
+}, {
+  "path" : "/assets/tiles/map.t.texturesetc",
+  "hexDigest" : "3d4ab9784f9305b510afcd085aff7029f80a4a50",
+  "children" : [ "/assets/tiles/__map_tilesource.texturec" ]
+}, {
+  "path" : "/assets/tiles/__map_tilesource.texturec",
+  "hexDigest" : "c9b8f5cc506b3cf2d7591783c05b9b2ede78e120",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/tile_map.materialc",
+  "hexDigest" : "59ba4f16fa285a30521fa4fc57a5efb83c52cdf3",
+  "children" : [ "/shader_-5550195794139652642.spc" ]
+}, {
+  "path" : "/shader_-5550195794139652642.spc",
+  "hexDigest" : "8137f5b1f85c46d79f0883c5913b87291d8cce18",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_ffec1475aba76cce.collisionobjectc",
+  "hexDigest" : "ca0cdf84badef7f5e1070b143f1c2f0cd84fa55c",
+  "children" : [ "/assets/tiles/map1.tilemapc" ]
+}, {
+  "path" : "/screens/game/maps/map2.goc",
+  "hexDigest" : "febf5af7d2568262003cbcad3e026288eb39473f",
+  "children" : [ "/assets/tiles/map2.tilemapc", "/_generated_8a17c8c858fd4759.collisionobjectc" ]
+}, {
+  "path" : "/assets/tiles/map2.tilemapc",
+  "hexDigest" : "b4fe3d4ee4205476675bf82b990c1908515a43ab",
+  "children" : [ "/assets/tiles/map.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
+}, {
+  "path" : "/_generated_8a17c8c858fd4759.collisionobjectc",
+  "hexDigest" : "c95a418abb65212aeb4d0e83c77a15374375c242",
+  "children" : [ "/assets/tiles/map2.tilemapc" ]
+}, {
+  "path" : "/screens/game/maps/map3.goc",
+  "hexDigest" : "f3b006f73c1de90f3aa6f459c8138c91a459a33a",
+  "children" : [ "/assets/tiles/map3.tilemapc", "/_generated_ee3d9dd9c32595b4.collisionobjectc" ]
+}, {
+  "path" : "/assets/tiles/map3.tilemapc",
+  "hexDigest" : "51cf8c5ddef571235510694fef2d9ca20b7347d4",
+  "children" : [ "/assets/tiles/map.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
+}, {
+  "path" : "/_generated_ee3d9dd9c32595b4.collisionobjectc",
+  "hexDigest" : "cef918a5a4490590d451765707945c6a192f9857",
+  "children" : [ "/assets/tiles/map3.tilemapc" ]
+}, {
+  "path" : "/screens/game/maps/map4.goc",
+  "hexDigest" : "05ea522c745f8274d734fb2373daf9baf5ba2912",
+  "children" : [ "/assets/tiles/map4.tilemapc", "/_generated_3ad6e7694be5c132.collisionobjectc" ]
+}, {
+  "path" : "/assets/tiles/map4.tilemapc",
+  "hexDigest" : "54166771b63ce8ae89f1b36a07278567998894f6",
+  "children" : [ "/assets/tiles/map.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
+}, {
+  "path" : "/_generated_3ad6e7694be5c132.collisionobjectc",
+  "hexDigest" : "9173c23f919682a017ca8ece833267640813cfb3",
+  "children" : [ "/assets/tiles/map4.tilemapc" ]
+}, {
+  "path" : "/screens/game/maps/map5.goc",
+  "hexDigest" : "50892d3737d8e72bc27d4cf018556a489afec2f5",
+  "children" : [ "/assets/tiles/map5.tilemapc", "/_generated_bfa826b4d8d757bc.collisionobjectc" ]
+}, {
+  "path" : "/assets/tiles/map5.tilemapc",
+  "hexDigest" : "a2c8ef9e8f4133ca7e2049b847f1601c216a3b24",
+  "children" : [ "/assets/tiles/map.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
+}, {
+  "path" : "/_generated_bfa826b4d8d757bc.collisionobjectc",
+  "hexDigest" : "f537a36a4414827d53b3e202db8c73380978e0bc",
+  "children" : [ "/assets/tiles/map5.tilemapc" ]
+}, {
+  "path" : "/_generated_c073ea2a7e5ed74.goc",
+  "hexDigest" : "607f339309623ce7849be3d0ac5546fb0a82b5c0",
+  "children" : [ "/_generated_ecec1aeb9e2f5fa6.spritec", "/_generated_99128c487bc415cd.spritec", "/_generated_410452638cd3e5e9.spritec", "/_generated_bab7e0418b655a23.spritec", "/_generated_d87b89095bd931f8.spritec" ]
+}, {
+  "path" : "/_generated_ecec1aeb9e2f5fa6.spritec",
+  "hexDigest" : "308b6f66d61397069867eae76754a0c06d757216",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "5fcb8d2abe470a02e6bf66ea5032b911c6109f57",
+  "children" : [ "/shader_-7170045909771754498.spc" ]
+}, {
+  "path" : "/shader_-7170045909771754498.spc",
+  "hexDigest" : "8137f5b1f85c46d79f0883c5913b87291d8cce18",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_99128c487bc415cd.spritec",
+  "hexDigest" : "11c04d675f37c7c9f7f708c998344e7815eff6b7",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_410452638cd3e5e9.spritec",
+  "hexDigest" : "406487d85c4ea59cf2403088b6b25c6d632b8b7f",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_bab7e0418b655a23.spritec",
+  "hexDigest" : "299f46fc82c6f6533e9935e7e3578dd8960c77d0",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_d87b89095bd931f8.spritec",
+  "hexDigest" : "7e94fd9a8da6b180961feca7d954299d97d5bc94",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_41bc892d3c490f86.goc",
+  "hexDigest" : "1cb2e325d764900061db9889d709bd3740b8893d",
+  "children" : [ "/_generated_410452638cd3e5e9.spritec", "/_generated_bab7e0418b655a23.spritec", "/_generated_d87b89095bd931f8.spritec", "/_generated_ecec1aeb9e2f5fa6.spritec", "/_generated_99128c487bc415cd.spritec", "/_generated_bd7172d541be2fb2.spritec", "/_generated_61240ee2783c927c.spritec" ]
+}, {
+  "path" : "/_generated_bd7172d541be2fb2.spritec",
+  "hexDigest" : "2ab8160b6435452d1cc2f974016b26c5d5fd71ab",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_61240ee2783c927c.spritec",
+  "hexDigest" : "548a48d331273492502908749fd590fa8b13f3f8",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_ec7f4bf9d75dcccf.goc",
+  "hexDigest" : "efb53eb9d023b5ce2bd3065e588e75aa300c082c",
+  "children" : [ "/screens/game/game.scriptc", "/_generated_e90ad1306179e744.spritec", "/_generated_d536a4c368a2287f.collisionobjectc", "/_generated_410452638cd3e5e9.spritec" ]
+}, {
+  "path" : "/screens/game/game.scriptc",
+  "hexDigest" : "f29c57af6ef111d68b4138d34175c9b460261466",
+  "children" : [ "/screens/game/modules/manager.luac" ]
+}, {
+  "path" : "/_generated_e90ad1306179e744.spritec",
+  "hexDigest" : "b8cf9723eec0a98b8d35b173e1f6d98b363d906f",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_d536a4c368a2287f.collisionobjectc",
+  "hexDigest" : "a60783c62d99ed74ceb00e089d196f54acec545b",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_a28cb2be09e3eacc.goc",
+  "hexDigest" : "586ea294dd2a87c9c5156c95dfd21cfbc6c4bc9b",
+  "children" : [ "/main/main.scriptc", "/_generated_810c3ff3c7a1ad5e.spritec" ]
+}, {
+  "path" : "/main/main.scriptc",
+  "hexDigest" : "d1ba1e33ccec022f19c7e9673156abdd213a97e6",
+  "children" : [ "/screens/screens.luac", "/monarch/monarch.luac", "/orthographic/camera.luac", "/common/sounds.luac" ]
+}, {
+  "path" : "/screens/screens.luac",
+  "hexDigest" : "b041ca04a561d1b2da910807a318ffc069900451",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_810c3ff3c7a1ad5e.spritec",
+  "hexDigest" : "4737ae19d5873f8503ec4b12ca9398f13115cd1f",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_28a23d4bf73ef69f.goc",
+  "hexDigest" : "064c4b3ca64ce15bc1690a01aba33ad6c2471b42",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_c1a3f6525437901e.collectionproxyc" ]
+}, {
+  "path" : "/_generated_c1a3f6525437901e.collectionproxyc",
+  "hexDigest" : "3ce80bf7137d667e8bdd24859e0fa0cd7f54069a",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/screens/main_menu/main_menu.collectionc" ]
+}, {
+  "path" : "/screens/main_menu/main_menu.collectionc",
+  "hexDigest" : "3118af8a8938ef7585929ac43ede8cd655aa8bb4",
+  "children" : [ "/_generated_37850a249f133bb5.goc" ]
+}, {
+  "path" : "/_generated_37850a249f133bb5.goc",
+  "hexDigest" : "9db3ac99c01a4a15664bf4b66a094e32a8e29f58",
+  "children" : [ "/screens/main_menu/main_menu.guic" ]
+}, {
+  "path" : "/screens/main_menu/main_menu.guic",
+  "hexDigest" : "cfae6096aa4c196d8b89ec7bd5e47d6a6828c3d0",
+  "children" : [ "/screens/main_menu/main_menu.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/screens/main_menu/main_menu.gui_scriptc",
+  "hexDigest" : "76b6bc70ae552a6c30a75b75f5bb688bee547fcb",
+  "children" : [ "/monarch/monarch.luac", "/common/button.luac" ]
+}, {
+  "path" : "/_generated_4fae9ec58aef6d3.goc",
+  "hexDigest" : "60a5066b97e36f33b52d15e343ec7f66a2dd681e",
+  "children" : [ "/_generated_15e75df073ae164c.soundc", "/_generated_391f5d76b3a68a4a.soundc" ]
+}, {
+  "path" : "/_generated_15e75df073ae164c.soundc",
+  "hexDigest" : "9ed7c5f1e12fff6b2e384cf0bce84739fd1b50ca",
+  "children" : [ "/assets/sounds/background.oggc" ]
+}, {
+  "path" : "/assets/sounds/background.oggc",
+  "hexDigest" : "116cc064836a0957ff7802abe3a2a621d8e90c46",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_391f5d76b3a68a4a.soundc",
+  "hexDigest" : "60eb375fee6fca2198ff0d0c5fdcde4ffb54faed",
+  "children" : [ "/assets/sounds/button.oggc" ]
+}, {
+  "path" : "/assets/sounds/button.oggc",
+  "hexDigest" : "29d17bdb0d31f84d7648b9df03fe49400cd906cc",
+  "children" : [ ]
+}, {
+  "path" : "/orthographic/render/orthographic.renderc",
+  "hexDigest" : "84af281824abd184517efc3417985aa5ce04a478",
+  "children" : [ "/orthographic/render/orthographic.render_scriptc" ]
+}, {
+  "path" : "/orthographic/render/orthographic.render_scriptc",
+  "hexDigest" : "fe3d848036d6cd5180587fa020fb5d9868eaa24a",
+  "children" : [ "/orthographic/camera.luac" ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "9b525bf47b7a7a9c35ad9b07723421404c35dc0f",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "0ce57d647ce8e3f153cdc37100c7a855b60d15b2",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+} ]
