@@ -39,7 +39,7 @@
     }
   }
   :open-assets {
-    :term "ma"
+    :term "game."
   }
   :search-in-files {
     :exts ""
@@ -49,6 +49,14 @@
   :workflow {
     :open-tabs [
       [
+        [
+          "/screens/game/game.gui_script"
+          :code
+        ]
+        [
+          "/game.project"
+          :cljfx-form-view
+        ]
       ]
     ]
     :recent-files [
@@ -121,10 +129,6 @@
         :scene
       ]
       [
-        "/game.project"
-        :cljfx-form-view
-      ]
-      [
         "/screens/game/maps/map1.go"
         :scene
       ]
@@ -179,6 +183,10 @@
       [
         "/screens/game/game.gui_script"
         :code
+      ]
+      [
+        "/game.project"
+        :cljfx-form-view
       ]
     ]
   }

@@ -29,12 +29,20 @@ function init(self)
 		self.buttons[v] = button.new(nil, 'pers' .. i, function()
 			gui.set_enabled(self.pick, false)
 			manager.set_pers(v)
+
+			for _i, _v in ipairs(manager.need_pass) do
+				self.buttons[_v]:disable()
+			end
 		end)
+		
 	end
 end
 
 function on_message(self, message_id, message)
 	if message_id == hash('finish') then
+		for i, v in ipairs(manager.need_pass) do
+			self.buttons[v]:enable()
+		end
 		for _, v in ipairs(manager.passed_yet) do
 			self.buttons[v]:disable()
 		end

@@ -69,7 +69,7 @@
   "children" : [ "/screens/game/game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/game/game.gui_scriptc",
-  "hexDigest" : "7eb396370cb51078fd9f6d0322f08b5eaa62f2e1",
+  "hexDigest" : "165d169c81e953af943f2dbde8bc5c39524ee95e",
   "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/game/modules/manager.luac" ]
 }, {
   "path" : "/common/button.luac",
@@ -97,7 +97,7 @@
   "children" : [ "/shader_6592067761991147028.spc" ]
 }, {
   "path" : "/shader_6592067761991147028.spc",
-  "hexDigest" : "d9bdcfbaf56c5cfc80d587ba6bec4e653956bde1",
+  "hexDigest" : "f94f7e245d6c7b73b79153341ab96abec5959bd5",
   "children" : [ ]
 }, {
   "path" : "/_generated_Kaph-Regular (1)_dd978325fd61b38d.glyph_bankc",
@@ -117,7 +117,7 @@
   "children" : [ "/shader_2713870051161532414.spc" ]
 }, {
   "path" : "/shader_2713870051161532414.spc",
-  "hexDigest" : "5ca30b7fbc34732d2761a36a6f95523190e79bdc",
+  "hexDigest" : "592098dddf1c7898da09526b4ba0569767c72ac7",
   "children" : [ ]
 }, {
   "path" : "/screens/game/maps/map1.goc",
@@ -141,7 +141,7 @@
   "children" : [ "/shader_-5550195794139652642.spc" ]
 }, {
   "path" : "/shader_-5550195794139652642.spc",
-  "hexDigest" : "8137f5b1f85c46d79f0883c5913b87291d8cce18",
+  "hexDigest" : "cfc3e8f8f6805c6756e9d772023d18f786dce0f9",
   "children" : [ ]
 }, {
   "path" : "/_generated_ffec1475aba76cce.collisionobjectc",
@@ -209,7 +209,7 @@
   "children" : [ "/shader_-7170045909771754498.spc" ]
 }, {
   "path" : "/shader_-7170045909771754498.spc",
-  "hexDigest" : "8137f5b1f85c46d79f0883c5913b87291d8cce18",
+  "hexDigest" : "cfc3e8f8f6805c6756e9d772023d18f786dce0f9",
   "children" : [ ]
 }, {
   "path" : "/_generated_99128c487bc415cd.spritec",

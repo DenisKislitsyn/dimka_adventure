@@ -23,7 +23,7 @@ dependencies#2 = https://github.com/britzl/defold-orthographic/archive/refs/tags
 [html5]
 show_made_with_defold = 0
 show_fullscreen_button = 0
-scale_mode = stretch
+scale_mode = fit
 heap_size = 64
 htmlfile = /game.html
 cssfile = /builtins/manifests/web/dark_theme.css
