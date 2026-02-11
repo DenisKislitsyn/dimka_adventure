@@ -69,11 +69,11 @@
   "children" : [ ]
 }, {
   "path" : "/assets/atlases/main.a.texturesetc",
-  "hexDigest" : "640eb524f294882a2893595cd0cc00bd73aab4d7",
+  "hexDigest" : "49e2bd05354672f39323218817e99b8c367e069a",
   "children" : [ "/assets/atlases/main.texturec" ]
 }, {
   "path" : "/assets/atlases/main.texturec",
-  "hexDigest" : "3322a989046470c3039556cba3790310d8d8b807",
+  "hexDigest" : "41557379421556b7ad0a5c702d6d47b5a9a7c7fa",
   "children" : [ ]
 }, {
   "path" : "/_generated_f8e24eec580b21d8.labelc",
@@ -141,7 +141,7 @@
   "children" : [ "/screens/game/game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc", "/assets/fx/sunshine.particlefxc", "/assets/fx/stars.particlefxc" ]
 }, {
   "path" : "/screens/game/game.gui_scriptc",
-  "hexDigest" : "1649160d5eee3e80c6b9deb5ddb787b5aa539a0b",
+  "hexDigest" : "9f36044f5ea9cfbca019733482c70e747ab7338a",
   "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/game/modules/manager.luac" ]
 }, {
   "path" : "/common/button.luac",
@@ -157,7 +157,7 @@
   "children" : [ ]
 }, {
   "path" : "/screens/game/modules/manager.luac",
-  "hexDigest" : "a56afbdb41f2218d72b68ced1218fbd2af378dbf",
+  "hexDigest" : "4adac0319ddf9058f38d9a1c184ca69c81afd9c9",
   "children" : [ ]
 }, {
   "path" : "/builtins/materials/gui.materialc",
@@ -309,7 +309,7 @@
   "children" : [ "/screens/game/game.scriptc", "/_generated_e90ad1306179e744.spritec", "/_generated_d536a4c368a2287f.collisionobjectc", "/_generated_410452638cd3e5e9.spritec" ]
 }, {
   "path" : "/screens/game/game.scriptc",
-  "hexDigest" : "f29c57af6ef111d68b4138d34175c9b460261466",
+  "hexDigest" : "5a7cf63fdfd4f80a2a4d8c2e7d677d4149de5323",
   "children" : [ "/screens/game/modules/manager.luac" ]
 }, {
   "path" : "/_generated_e90ad1306179e744.spritec",
@@ -354,7 +354,7 @@
   "children" : [ "/screens/main_menu/main_menu.guic" ]
 }, {
   "path" : "/screens/main_menu/main_menu.guic",
-  "hexDigest" : "c79ce237548b5053bbb63d1aac6eb5395f5404b4",
+  "hexDigest" : "74457a46b5e70d314e80810e80846b0910a27c6d",
   "children" : [ "/screens/main_menu/main_menu.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/main_menu/main_menu.gui_scriptc",

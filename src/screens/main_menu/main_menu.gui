@@ -25,8 +25,11 @@ nodes {
 }
 nodes {
   position {
-    x: 191.0
-    y: 337.0
+    x: -190.0
+    y: 381.0
+  }
+  rotation {
+    y: 180.0
   }
   scale {
     x: 0.35
@@ -42,11 +45,8 @@ nodes {
 }
 nodes {
   position {
-    x: -189.0
-    y: 348.0
-  }
-  rotation {
-    y: 180.0
+    x: 119.0
+    y: 377.0
   }
   scale {
     x: 0.7
