@@ -2580,12 +2580,12 @@ layers {
   cell {
     x: -5
     y: 9
-    tile: 24
+    tile: 13
   }
   cell {
     x: -4
     y: 9
-    tile: 20
+    tile: 14
   }
   cell {
     x: -3
@@ -2680,12 +2680,12 @@ layers {
   cell {
     x: -5
     y: 10
-    tile: 24
+    tile: 0
   }
   cell {
     x: -4
     y: 10
-    tile: 20
+    tile: 0
   }
   cell {
     x: -3
@@ -2780,12 +2780,12 @@ layers {
   cell {
     x: -5
     y: 11
-    tile: 13
+    tile: 0
   }
   cell {
     x: -4
     y: 11
-    tile: 14
+    tile: 0
   }
   cell {
     x: -3

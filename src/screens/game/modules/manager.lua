@@ -10,7 +10,9 @@ M.perses_down = {
 M.perses_up = {
 	'pasha', 'vika', 'dima', 'milana', 'nikita'
 }
-
+M.finish_perses = {
+	'/denis', '/nika', '/bar', '/hop'
+}
 
 local ACTION_TOUCH = hash('touch')
 
@@ -78,6 +80,12 @@ function M.init()
 
 	for i, v in ipairs(M.perses_up) do
 		msg.post('/perses_up#' .. M.perses_down[i], 'disable')
+	end
+
+	for i, v in ipairs(M.finish_perses) do
+		go.animate(v, 'scale', go.PLAYBACK_LOOP_PINGPONG, 0.95, go.EASING_LINEAR, 2)--, (i-1) * 0.1)
+		go.animate(v, 'euler.z', go.PLAYBACK_LOOP_PINGPONG, -5, go.EASING_LINEAR, 2)--, (i-1) * 0.5)
+		go.animate(v, 'position.y', go.PLAYBACK_LOOP_PINGPONG, -95, go.EASING_LINEAR, 1)--, (i-1) * 0.5)
 	end
 end
 

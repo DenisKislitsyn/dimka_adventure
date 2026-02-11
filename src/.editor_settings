@@ -39,7 +39,7 @@
     }
   }
   :open-assets {
-    :term "main"
+    :term "mana"
   }
   :search-in-files {
     :exts ""
@@ -49,17 +49,41 @@
   :workflow {
     :open-tabs [
       [
+        [
+          "/screens/main_menu/main_menu.gui"
+          :scene
+        ]
+        [
+          "/screens/game/game.collection"
+          :scene
+        ]
+        [
+          "/assets/atlases/main.atlas"
+          :scene
+        ]
+        [
+          "/screens/game/game.gui_script"
+          :code
+        ]
+        [
+          "/screens/game/game.gui"
+          :scene
+        ]
+        [
+          "/game.project"
+          :cljfx-form-view
+        ]
+        [
+          "/screens/game/game.script"
+          :code
+        ]
+        [
+          "/screens/game/modules/manager.lua"
+          :code
+        ]
       ]
     ]
     :recent-files [
-      [
-        "/common/veon_ads.lua"
-        :code
-      ]
-      [
-        "/assets/tiles/map_2.tilemap"
-        :scene
-      ]
       [
         "/screens/screens.lua"
         :code
@@ -97,26 +121,6 @@
         :code
       ]
       [
-        "/screens/game/maps/map3.go"
-        :scene
-      ]
-      [
-        "/screens/game/maps/map2.go"
-        :scene
-      ]
-      [
-        "/screens/game/maps/map4.go"
-        :scene
-      ]
-      [
-        "/screens/game/maps/map5.go"
-        :scene
-      ]
-      [
-        "/screens/game/maps/map1.go"
-        :scene
-      ]
-      [
         "/assets/tiles/map1.tilemap"
         :scene
       ]
@@ -125,39 +129,11 @@
         :scene
       ]
       [
-        "/assets/tiles/map3.tilemap"
-        :scene
-      ]
-      [
-        "/assets/tiles/map4.tilemap"
-        :scene
-      ]
-      [
         "/assets/tiles/map5.tilemap"
         :scene
       ]
       [
-        "/screens/game/game.gui"
-        :scene
-      ]
-      [
         "/screens/main_menu/main_menu.gui_script"
-        :code
-      ]
-      [
-        "/assets/atlases/main.atlas"
-        :scene
-      ]
-      [
-        "/screens/main_menu/main_menu.gui"
-        :scene
-      ]
-      [
-        "/screens/game/modules/manager.lua"
-        :code
-      ]
-      [
-        "/screens/game/game.script"
         :code
       ]
       [
@@ -169,7 +145,63 @@
         :code
       ]
       [
-        "/screens/game/game.collection"
+        "/assets/fx/sunshine.particlefx"
+        :scene
+      ]
+      [
+        "/assets/fx/stars.particlefx"
+        :scene
+      ]
+      [
+        "/screens/game/game.gui"
+        :scene
+      ]
+      [
+        "/assets/tiles/map4.tilemap"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map4.go"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map5.go"
+        :scene
+      ]
+      [
+        "/assets/tiles/map3.tilemap"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map3.go"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map2.go"
+        :scene
+      ]
+      [
+        "/screens/game/maps/map1.go"
+        :scene
+      ]
+      [
+        "/screens/game/game.gui_script"
+        :code
+      ]
+      [
+        "/screens/game/game.script"
+        :code
+      ]
+      [
+        "/screens/game/modules/manager.lua"
+        :code
+      ]
+      [
+        "/assets/atlases/main.atlas"
+        :scene
+      ]
+      [
+        "/screens/main_menu/main_menu.gui"
         :scene
       ]
       [
@@ -177,8 +209,8 @@
         :cljfx-form-view
       ]
       [
-        "/screens/game/game.gui_script"
-        :code
+        "/screens/game/game.collection"
+        :scene
       ]
     ]
   }

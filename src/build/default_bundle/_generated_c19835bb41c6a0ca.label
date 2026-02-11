@@ -1,0 +1,13 @@
+size {
+  x: 128.0
+  y: 32.0
+}
+outline {
+  x: 0.023529412
+  y: 0.38431373
+  z: 0.6509804
+}
+text: "\321\203\321\200\320\260\n"
+  ""
+font: "/assets/fonts/font.font"
+material: "/builtins/fonts/label-df.material"

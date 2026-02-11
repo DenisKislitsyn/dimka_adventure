@@ -120,7 +120,7 @@ max_count = 0
 max_count = 8
 max_animation_count = 1024
 max_particle_count = 1024
-max_particlefx_count = 8
+max_particlefx_count = 1024
 safe_area_mode = none
 
 [collection]
@@ -209,7 +209,7 @@ defold_min_version =
 shared_state = 1
 
 [label]
-max_count = 0
+max_count = 64
 subpixels = 1
 
 [profiler]

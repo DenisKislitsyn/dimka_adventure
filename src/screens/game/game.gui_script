@@ -34,8 +34,12 @@ function init(self)
 				self.buttons[_v]:disable()
 			end
 		end)
-		
+		-- gui.animate(node, property, to, easing, duration, delay, complete_function, playback)
 	end
+
+	-- gui.play_particlefx(gui.get_node('particlefx'))
+	gui.play_particlefx(gui.get_node('stars'))
+	
 end
 
 function on_message(self, message_id, message)
@@ -50,6 +54,7 @@ function on_message(self, message_id, message)
 	elseif message_id == hash('gameover') then
 		msg.post('.', 'release_input_focus')
 		gui.set_enabled(gui.get_node('gameover'), true)
+		gui.play_particlefx(gui.get_node('stars'))
 	end
 end
 

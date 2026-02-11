@@ -72,7 +72,7 @@ verify_graphics_calls = 1
 max_animation_count = 1024
 max_count = 8
 max_particle_count = 1024
-max_particlefx_count = 8
+max_particlefx_count = 1024
 safe_area_mode = none
 
 [html5]
@@ -109,7 +109,7 @@ pre_renderered_icons = 0
 privacymanifest = /builtins/manifests/ios/PrivacyInfo.xcprivacy
 
 [label]
-max_count = 0
+max_count = 64
 subpixels = 1
 
 [liveupdate]

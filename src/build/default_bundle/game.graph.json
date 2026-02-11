@@ -49,44 +49,36 @@
   "children" : [ "/screens/game/game.collectionc" ]
 }, {
   "path" : "/screens/game/game.collectionc",
-  "hexDigest" : "f37582933f4753db92d2913b9bfdf2f8916f50c4",
-  "children" : [ "/_generated_1cecb8b67aaeaf8a.goc", "/_generated_4fa3ab26832f1392.goc", "/screens/game/maps/map1.goc", "/screens/game/maps/map2.goc", "/screens/game/maps/map3.goc", "/screens/game/maps/map4.goc", "/screens/game/maps/map5.goc", "/_generated_c073ea2a7e5ed74.goc", "/_generated_41bc892d3c490f86.goc", "/_generated_ec7f4bf9d75dcccf.goc" ]
+  "hexDigest" : "81f5c635d97bb0e232a74d25331a132b641be12d",
+  "children" : [ "/_generated_b5193cbd2273ed94.goc", "/_generated_d37b070595b57225.goc", "/_generated_1cecb8b67aaeaf8a.goc", "/_generated_4fa3ab26832f1392.goc", "/_generated_54e523bdb79a9416.goc", "/screens/game/maps/map1.goc", "/screens/game/maps/map2.goc", "/screens/game/maps/map3.goc", "/screens/game/maps/map4.goc", "/screens/game/maps/map5.goc", "/_generated_2f7b0f8bf2bb2f65.goc", "/_generated_c073ea2a7e5ed74.goc", "/_generated_9b166849f8859cf4.goc", "/_generated_8067dabf61262249.goc" ]
 }, {
-  "path" : "/_generated_1cecb8b67aaeaf8a.goc",
-  "hexDigest" : "50817c5b3305f26879d84de226cec00be4672b6a",
-  "children" : [ "/_generated_71335c0e6a61f7e6.collisionobjectc" ]
+  "path" : "/_generated_b5193cbd2273ed94.goc",
+  "hexDigest" : "26129021f340f40f6f532788bee7c6cef0a728a5",
+  "children" : [ "/_generated_6b40906790f498e2.spritec", "/_generated_f8e24eec580b21d8.labelc", "/_generated_b89bea04440033cd.spritec", "/_generated_ccb28b643b4e1d1a.spritec" ]
 }, {
-  "path" : "/_generated_71335c0e6a61f7e6.collisionobjectc",
-  "hexDigest" : "555a2e6f74499aca3816fac5e195bb77762f6d3a",
+  "path" : "/_generated_6b40906790f498e2.spritec",
+  "hexDigest" : "cf26e147a4962060bf754ca9820493f8f0723a4c",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "5fcb8d2abe470a02e6bf66ea5032b911c6109f57",
+  "children" : [ "/shader_-7170045909771754498.spc" ]
+}, {
+  "path" : "/shader_-7170045909771754498.spc",
+  "hexDigest" : "cfc3e8f8f6805c6756e9d772023d18f786dce0f9",
   "children" : [ ]
 }, {
-  "path" : "/_generated_4fa3ab26832f1392.goc",
-  "hexDigest" : "096aec4f2c7e4eedc463852989dd61cee228fbbf",
-  "children" : [ "/screens/game/game.guic" ]
+  "path" : "/assets/atlases/main.a.texturesetc",
+  "hexDigest" : "640eb524f294882a2893595cd0cc00bd73aab4d7",
+  "children" : [ "/assets/atlases/main.texturec" ]
 }, {
-  "path" : "/screens/game/game.guic",
-  "hexDigest" : "5b1e93f4daa81ee8bb15e2c849b73b1bcd6f4040",
-  "children" : [ "/screens/game/game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
-}, {
-  "path" : "/screens/game/game.gui_scriptc",
-  "hexDigest" : "614f6ad9cf7503aa40007c31f9f06204428018be",
-  "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/game/modules/manager.luac" ]
-}, {
-  "path" : "/common/button.luac",
-  "hexDigest" : "5f71e503e6022e14ca3c94327b82ad97b1095eef",
-  "children" : [ "/common/sounds.luac" ]
-}, {
-  "path" : "/common/sounds.luac",
-  "hexDigest" : "aef583cf65bf248633780dd84e2b7f6ae38bb625",
-  "children" : [ "/ludobits/m/signal.luac" ]
-}, {
-  "path" : "/ludobits/m/signal.luac",
-  "hexDigest" : "81b6313a37123622830982508f513bc6a82374fa",
+  "path" : "/assets/atlases/main.texturec",
+  "hexDigest" : "3322a989046470c3039556cba3790310d8d8b807",
   "children" : [ ]
 }, {
-  "path" : "/screens/game/modules/manager.luac",
-  "hexDigest" : "dee584fcbb98c876c7c601f621aa03edc38bd5ee",
-  "children" : [ ]
+  "path" : "/_generated_f8e24eec580b21d8.labelc",
+  "hexDigest" : "69d54d2b9e4cab0756675265f8e12cbbf82d4f16",
+  "children" : [ "/assets/fonts/font.fontc", "/builtins/fonts/label-df.materialc" ]
 }, {
   "path" : "/assets/fonts/font.fontc",
   "hexDigest" : "d3325b3fc0d6b52328a9322efef1361247deefea",
@@ -104,12 +96,68 @@
   "hexDigest" : "1b09d742bbce910cc59638eed000f57e7ecdf412",
   "children" : [ ]
 }, {
-  "path" : "/assets/atlases/main.a.texturesetc",
-  "hexDigest" : "f5079598bf1185b06612497071039833b025818f",
-  "children" : [ "/assets/atlases/main.texturec" ]
+  "path" : "/builtins/fonts/label-df.materialc",
+  "hexDigest" : "0bd01cb1d6b85ca228d64712c62474a30b045e7c",
+  "children" : [ "/shader_6592067761991147028.spc" ]
 }, {
-  "path" : "/assets/atlases/main.texturec",
-  "hexDigest" : "bc88d471983fcc240cf3fd7b9d7c77e1ca6e71e8",
+  "path" : "/_generated_b89bea04440033cd.spritec",
+  "hexDigest" : "de5bb9c83f0adc3f751b46e4adf0f77f44d80ae1",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_ccb28b643b4e1d1a.spritec",
+  "hexDigest" : "96d914b83317d596afcc19eeb2b0c90c3d2f0220",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_d37b070595b57225.goc",
+  "hexDigest" : "20b445a31f2d5917e8692978a054adde9b3a1cc9",
+  "children" : [ "/_generated_df34cee56c47662a.spritec", "/_generated_860bfa6870bae734.spritec", "/_generated_c19835bb41c6a0ca.labelc" ]
+}, {
+  "path" : "/_generated_df34cee56c47662a.spritec",
+  "hexDigest" : "1bfc668e6673efd1d490a44ac8f27d718130166f",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_860bfa6870bae734.spritec",
+  "hexDigest" : "c8faacf34fb2992e28b8035f169b555b952e482f",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_c19835bb41c6a0ca.labelc",
+  "hexDigest" : "e70ff9fda8688eb583565d409f5e091501320947",
+  "children" : [ "/assets/fonts/font.fontc", "/builtins/fonts/label-df.materialc" ]
+}, {
+  "path" : "/_generated_1cecb8b67aaeaf8a.goc",
+  "hexDigest" : "50817c5b3305f26879d84de226cec00be4672b6a",
+  "children" : [ "/_generated_71335c0e6a61f7e6.collisionobjectc" ]
+}, {
+  "path" : "/_generated_71335c0e6a61f7e6.collisionobjectc",
+  "hexDigest" : "555a2e6f74499aca3816fac5e195bb77762f6d3a",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_4fa3ab26832f1392.goc",
+  "hexDigest" : "096aec4f2c7e4eedc463852989dd61cee228fbbf",
+  "children" : [ "/screens/game/game.guic" ]
+}, {
+  "path" : "/screens/game/game.guic",
+  "hexDigest" : "726ef02266f404ad139e100f1b590e0b02ea3cd9",
+  "children" : [ "/screens/game/game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc", "/assets/fx/sunshine.particlefxc", "/assets/fx/stars.particlefxc" ]
+}, {
+  "path" : "/screens/game/game.gui_scriptc",
+  "hexDigest" : "1649160d5eee3e80c6b9deb5ddb787b5aa539a0b",
+  "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/game/modules/manager.luac" ]
+}, {
+  "path" : "/common/button.luac",
+  "hexDigest" : "5f71e503e6022e14ca3c94327b82ad97b1095eef",
+  "children" : [ "/common/sounds.luac" ]
+}, {
+  "path" : "/common/sounds.luac",
+  "hexDigest" : "aef583cf65bf248633780dd84e2b7f6ae38bb625",
+  "children" : [ "/ludobits/m/signal.luac" ]
+}, {
+  "path" : "/ludobits/m/signal.luac",
+  "hexDigest" : "81b6313a37123622830982508f513bc6a82374fa",
+  "children" : [ ]
+}, {
+  "path" : "/screens/game/modules/manager.luac",
+  "hexDigest" : "a56afbdb41f2218d72b68ced1218fbd2af378dbf",
   "children" : [ ]
 }, {
   "path" : "/builtins/materials/gui.materialc",
@@ -119,6 +167,30 @@
   "path" : "/shader_2713870051161532414.spc",
   "hexDigest" : "592098dddf1c7898da09526b4ba0569767c72ac7",
   "children" : [ ]
+}, {
+  "path" : "/assets/fx/sunshine.particlefxc",
+  "hexDigest" : "469338339000b56bbcd44df480c122cd1d6d99ff",
+  "children" : [ "/assets/atlases/main.a.texturesetc", "/builtins/materials/particlefx.materialc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/particlefx.materialc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/particlefx.materialc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/builtins/materials/particlefx.materialc",
+  "hexDigest" : "fffb4c0be5af520659470aab0924852ed91fbdc6",
+  "children" : [ "/shader_7080802899218083337.spc" ]
+}, {
+  "path" : "/shader_7080802899218083337.spc",
+  "hexDigest" : "a04b0f765e559bf887618f337cc2a1ec5862c69e",
+  "children" : [ ]
+}, {
+  "path" : "/assets/fx/stars.particlefxc",
+  "hexDigest" : "4e9ba2c231ef33b38b3c5945539d7878a1383f45",
+  "children" : [ "/assets/atlases/main.a.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_54e523bdb79a9416.goc",
+  "hexDigest" : "1155c17396475357c7d24f65a41b52f6f6662b3f",
+  "children" : [ "/_generated_c60ad3f5e0ab4cc7.spritec" ]
+}, {
+  "path" : "/_generated_c60ad3f5e0ab4cc7.spritec",
+  "hexDigest" : "09682a51d7e94630a3f81e9f1935fef0af99c503",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
 }, {
   "path" : "/screens/game/maps/map1.goc",
   "hexDigest" : "52c40149804fdd888bb8e31ee617ea459375a751",
@@ -165,7 +237,7 @@
   "children" : [ "/assets/tiles/map3.tilemapc", "/_generated_ee3d9dd9c32595b4.collisionobjectc" ]
 }, {
   "path" : "/assets/tiles/map3.tilemapc",
-  "hexDigest" : "51cf8c5ddef571235510694fef2d9ca20b7347d4",
+  "hexDigest" : "c132fe42037c9f2e9c7c446aa003e0a588991459",
   "children" : [ "/assets/tiles/map.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
 }, {
   "path" : "/_generated_ee3d9dd9c32595b4.collisionobjectc",
@@ -177,7 +249,7 @@
   "children" : [ "/assets/tiles/map4.tilemapc", "/_generated_3ad6e7694be5c132.collisionobjectc" ]
 }, {
   "path" : "/assets/tiles/map4.tilemapc",
-  "hexDigest" : "54166771b63ce8ae89f1b36a07278567998894f6",
+  "hexDigest" : "9c399784344c41c93f6a22b9d454804ddaa01996",
   "children" : [ "/assets/tiles/map.t.texturesetc", "/builtins/materials/tile_map.materialc" ]
 }, {
   "path" : "/_generated_3ad6e7694be5c132.collisionobjectc",
@@ -196,6 +268,14 @@
   "hexDigest" : "f537a36a4414827d53b3e202db8c73380978e0bc",
   "children" : [ "/assets/tiles/map5.tilemapc" ]
 }, {
+  "path" : "/_generated_2f7b0f8bf2bb2f65.goc",
+  "hexDigest" : "6d6649126a19469dfe38dc1c3232c30b1b418a9e",
+  "children" : [ "/_generated_8318045a76dbeed8.spritec" ]
+}, {
+  "path" : "/_generated_8318045a76dbeed8.spritec",
+  "hexDigest" : "4faaa507be5d4599c3ed8513420bb481abde62df",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
   "path" : "/_generated_c073ea2a7e5ed74.goc",
   "hexDigest" : "607f339309623ce7849be3d0ac5546fb0a82b5c0",
   "children" : [ "/_generated_ecec1aeb9e2f5fa6.spritec", "/_generated_99128c487bc415cd.spritec", "/_generated_410452638cd3e5e9.spritec", "/_generated_bab7e0418b655a23.spritec", "/_generated_d87b89095bd931f8.spritec" ]
@@ -203,14 +283,6 @@
   "path" : "/_generated_ecec1aeb9e2f5fa6.spritec",
   "hexDigest" : "308b6f66d61397069867eae76754a0c06d757216",
   "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
-}, {
-  "path" : "/builtins/materials/sprite.materialc",
-  "hexDigest" : "5fcb8d2abe470a02e6bf66ea5032b911c6109f57",
-  "children" : [ "/shader_-7170045909771754498.spc" ]
-}, {
-  "path" : "/shader_-7170045909771754498.spc",
-  "hexDigest" : "cfc3e8f8f6805c6756e9d772023d18f786dce0f9",
-  "children" : [ ]
 }, {
   "path" : "/_generated_99128c487bc415cd.spritec",
   "hexDigest" : "11c04d675f37c7c9f7f708c998344e7815eff6b7",
@@ -228,24 +300,16 @@
   "hexDigest" : "7e94fd9a8da6b180961feca7d954299d97d5bc94",
   "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
 }, {
-  "path" : "/_generated_41bc892d3c490f86.goc",
-  "hexDigest" : "1cb2e325d764900061db9889d709bd3740b8893d",
-  "children" : [ "/_generated_410452638cd3e5e9.spritec", "/_generated_bab7e0418b655a23.spritec", "/_generated_d87b89095bd931f8.spritec", "/_generated_ecec1aeb9e2f5fa6.spritec", "/_generated_99128c487bc415cd.spritec", "/_generated_bd7172d541be2fb2.spritec", "/_generated_61240ee2783c927c.spritec" ]
+  "path" : "/_generated_9b166849f8859cf4.goc",
+  "hexDigest" : "9a59bb2d62a5a272c42a274ae220ca9b4b23f472",
+  "children" : [ "/_generated_410452638cd3e5e9.spritec", "/_generated_bab7e0418b655a23.spritec", "/_generated_d87b89095bd931f8.spritec", "/_generated_ecec1aeb9e2f5fa6.spritec", "/_generated_99128c487bc415cd.spritec" ]
 }, {
-  "path" : "/_generated_bd7172d541be2fb2.spritec",
-  "hexDigest" : "2ab8160b6435452d1cc2f974016b26c5d5fd71ab",
-  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
-}, {
-  "path" : "/_generated_61240ee2783c927c.spritec",
-  "hexDigest" : "548a48d331273492502908749fd590fa8b13f3f8",
-  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
-}, {
-  "path" : "/_generated_ec7f4bf9d75dcccf.goc",
-  "hexDigest" : "efb53eb9d023b5ce2bd3065e588e75aa300c082c",
+  "path" : "/_generated_8067dabf61262249.goc",
+  "hexDigest" : "5ffb21981e655d7cdf92a5757ba33a56c9d81192",
   "children" : [ "/screens/game/game.scriptc", "/_generated_e90ad1306179e744.spritec", "/_generated_d536a4c368a2287f.collisionobjectc", "/_generated_410452638cd3e5e9.spritec" ]
 }, {
   "path" : "/screens/game/game.scriptc",
-  "hexDigest" : "5a7cf63fdfd4f80a2a4d8c2e7d677d4149de5323",
+  "hexDigest" : "f29c57af6ef111d68b4138d34175c9b460261466",
   "children" : [ "/screens/game/modules/manager.luac" ]
 }, {
   "path" : "/_generated_e90ad1306179e744.spritec",
@@ -261,7 +325,7 @@
   "children" : [ "/main/main.scriptc", "/_generated_810c3ff3c7a1ad5e.spritec" ]
 }, {
   "path" : "/main/main.scriptc",
-  "hexDigest" : "7c3eb6496b700c8f05237015872f69ba527d5f17",
+  "hexDigest" : "e8bb5f370ded1a95d419ed39ad8c9718e46744b7",
   "children" : [ "/screens/screens.luac", "/monarch/monarch.luac", "/orthographic/camera.luac", "/common/sounds.luac" ]
 }, {
   "path" : "/screens/screens.luac",
@@ -290,7 +354,7 @@
   "children" : [ "/screens/main_menu/main_menu.guic" ]
 }, {
   "path" : "/screens/main_menu/main_menu.guic",
-  "hexDigest" : "cfae6096aa4c196d8b89ec7bd5e47d6a6828c3d0",
+  "hexDigest" : "c79ce237548b5053bbb63d1aac6eb5395f5404b4",
   "children" : [ "/screens/main_menu/main_menu.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/main_menu/main_menu.gui_scriptc",
